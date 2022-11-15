@@ -16,13 +16,26 @@
         <tr>
           <th>First Name</th>
           <th>Last Name</th>
-          <th>Position</th>
           <th>Team</th>
           <th>Conference</th>
           <th>Division</th>
         </tr>
       </thead>
+      <tbody></tbody>
     </table>
+    <div class="control">
+      <form>
+        <p>Choose a number between 1 and <span></span></p>
+        <label for="page">Go To Page:</label>
+        <input type="number" name="page" id="page" min="1" />
+        <button>Go</button>
+      </form>
+      <div class="buttons">
+        <button class="previous">Previous Page</button>
+        <button class="next">Next Page</button>
+        <p>Page Number: <span></span></p>
+      </div>
+    </div>
     <script src="./main.js"></script>
   </body>
 </html>

@@ -1,5 +1,17 @@
 table {
   text-align: center;
   width: 95%;
+  height: 85vh;
   margin-inline: auto;
+  background-color: antiquewhite;
+}
+
+.buttons {
+  margin-bottom: -1em;
+}
+
+.control {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
